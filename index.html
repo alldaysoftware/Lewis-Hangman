@@ -1,0 +1,55 @@
+<html>	<!--start html tag-->
+<head>	<!--start head tag-->
+	<meta charset="utf-8" />
+   <h1>80 Games Hangman</h1> 
+	<h2>MAIN MENU</h2>
+    <title>80Games Hangman</title>	<!--title tags-->
+   <script>
+   		//variable to use JavaScript to create a link to  relative address....use document.write to activate relative link
+		var programming = "Programming Lanugages";
+		var comedians = "Comedians"; 
+		var sports = "Sports Teams";	
+		var cities = "Cities";
+		var food = "Foods";
+		
+		document.write("<p>" + programming.link("hangman-languages.html") + "</p>");
+		document.write("<p>" + comedians.link("hangman-comedians.html") + "</p>");
+		document.write("<p>" + sports.link("hangman-sports-teams.html") + "</p>");
+		document.write("<p>" + cities.link("hangman-cities.html") + "</p>");
+		document.write("<p>" + food.link("hangman-foods.html") + "</p>");
+    </script>
+    
+
+    <style>
+		body {
+			background-image: url("hangmanbackground.png");
+		}	    
+
+		a{								/*hyperlink color*/
+			color: white;		
+		}		
+		
+		a:visited { 	/*visited hyperlink color*/
+    		color: pink;
+		}
+		h1{
+			color: white;	
+			text-align: center;	
+		}
+		h2{
+			color: white;		
+			text-align: center;
+		}
+    </style>
+</head>
+<body>
+
+</body>
+</html>
+
+<!--
+DeLon R. Lewis
+MSSE 500
+Assignment 7, Hangman Modify
+This code features a Hangman game that has 50 different words to choose from 5 different categories. Each category has its own theme page as well. 
+-->
